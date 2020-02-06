@@ -1,6 +1,5 @@
 #! /bin/bash
 
-function magic() {
+function magic {
   echo $1
-  exit 0
 }
