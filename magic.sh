@@ -1,6 +1,6 @@
 #! /bin/bash
 
 function magic {
-  echo $1
+  for f in $2/*\ *; do mv "$f" "${f// /_}"; done
   exit 0
 }
